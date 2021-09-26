@@ -197,10 +197,14 @@
                 background-image: url("pure_technology.gif");
             }
 
+            .square-container {
+              display: grid;
+              grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+              grid-gap: 10px;
+            }
+
             .square {
               position: relative;
-              flex-basis: calc(33.333% - 10px);
-              margin: 5px;
               border: 1px solid;
               box-sizing: border-box;
             }
@@ -216,10 +220,6 @@
               top: 0; left: 0;
               height: 100%;
               width: 100%;
-
-              display: flex;               /* added for centered text */
-              justify-content: center;     /* added for centered text */
-              align-items: center;         /* added for centered text */
             }
             
             .waves {
