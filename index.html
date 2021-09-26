@@ -180,46 +180,27 @@
             }
             
             .about {
-                display: flex;
-                flex-wrap: wrap;
                 background-color: rgba(0, 0, 0, 0.5);
                 width: 80%;
                 margin: auto;
-                padding: 2em;
+                padding: 20px;
                 opacity: 0.5;
+                display: grid;
+                grid-template-columns: auto auto auto;
             }
             
             .econ {
-                background-image: url("econ.png");
+                background-image: url("/econ.png");
             }
             
             .pyarena {
-                background-image: url("pure_technology.gif");
+                background-image: url("/pure_technology.gif");
             }
 
-            .square-container {
-              display: grid;
-              grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
-              grid-gap: 10px;
-            }
-
-            .square {
-              position: relative;
-              border: 1px solid;
-              box-sizing: border-box;
-            }
-
-            .square::before {
-              content: '';
-              display: block;
-              padding-top: 5em;
-            }
-
-            .square .content {
-              position: absolute;
-              top: 0; left: 0;
-              height: 5em;
-              width: 5em;
+            .grid-item {
+                padding: 20px;
+                font-size: 30px;
+                text-align: center;
             }
             
             .waves {
@@ -390,27 +371,31 @@
     </div>
 
     <div class="about">
-        <h4 style="align: center;">My Projects <i class="fas fa-code"></i></h4>
+        <h4 style="text-align: center;">My Projects <i class="fas fa-code"></i></h4>
         
-        <a href="http://econbot.ddns.net" target="_blank" class="btn-5">
-            <div class="square econ">
-                <div class="content">
-                    <i style="color: #ffcccb; animation: iglow 1.5s ease-in-out infinite alternate;" class="fas fa-discord"></i> Econ - Discord Bot</h3>
-                    <h4 class="description">Econ is a Python Bot made for Discord, using a digital economy to create a competive battle to be the richest!</h4>
-                </div>
-            </div>
-        </a>
+        <div class="grid-container">
+              <div class="grid-item">
+                    <a href="http://econbot.ddns.net" target="_blank" class="btn-5">
+                        <div class="square econ">
+                            <div class="content">
+                                <i style="color: #ffcccb; animation: iglow 1.5s ease-in-out infinite alternate;" class="fas fa-discord"></i> Econ - Discord Bot</h3>
+                                <h4 class="description">Econ is a Python Bot made for Discord, using a digital economy to create a competive battle to be the richest!</h4>
+                            </div>
+                        </div>
+                    </a>
+              </div>
 
-        <br>
-
-        <a href="https://pyarena.ddns.net" target="_blank" class="btn-5">
-            <div class="square pyarena">
-                <div class="content">
-                    <i style="color: #ffcccb; animation: iglow 1.5s ease-in-out infinite alternate;" class="fas fa-python"></i> PyArena</h3>
-                    <h4 class="description">My Personal Pet-Project Game Engine I'm developing in my free time, progress is slow so don't expect too much yet.</h4>
-                </div>
-            </div>
-        </a>
+              <div class="grid-item">
+                    <a href="https://pyarena.ddns.net" target="_blank" class="btn-5">
+                        <div class="square pyarena">
+                            <div class="content">
+                                <i style="color: #ffcccb; animation: iglow 1.5s ease-in-out infinite alternate;" class="fas fa-python"></i> PyArena</h3>
+                                <h4 class="description">My Personal Pet-Project Game Engine I'm developing in my free time, progress is slow so don't expect too much yet.</h4>
+                            </div>
+                        </div>
+                    </a>
+              </div>  
+        </div>
     </div>
     
     <br>
