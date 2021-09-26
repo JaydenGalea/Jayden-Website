@@ -180,11 +180,38 @@
             }
             
             .about {
+                display: flex;
+                flex-wrap: wrap;
                 background-color: rgba(0, 0, 0, 0.5);
                 width: 80%;
                 margin: auto;
                 padding: 2em;
                 opacity: 0.5;
+            }
+
+            .square {
+              position: relative;
+              flex-basis: calc(33.333% - 10px);
+              margin: 5px;
+              border: 1px solid;
+              box-sizing: border-box;
+            }
+
+            .square::before {
+              content: '';
+              display: block;
+              padding-top: 100%;
+            }
+
+            .square .content {
+              position: absolute;
+              top: 0; left: 0;
+              height: 100%;
+              width: 100%;
+
+              display: flex;               /* added for centered text */
+              justify-content: center;     /* added for centered text */
+              align-items: center;         /* added for centered text */
             }
             
             .waves {
@@ -334,6 +361,7 @@
     
     <!-- bar here -->
     <div class="container">
+        <h4>Socials <i class="fas fa-user-circle"></i></h4>
         <div class="buttons">
             <a href="https://www.youtube.com/channel/UC_gpcdYSE9s86EeaPKVDh3Q" target="_blank" class="btn-5">
                 <button class="btn-5">Youtube  <i class="fab fa-youtube"></i></button>
@@ -353,19 +381,29 @@
         </div>
     </div>
 
-<!--     <div class="about">
-        <h4>My Projects</h4>
+    <div class="about">
+        <h4>My Projects <i class="fas fa-code"></i></h4>
         
         <a href="http://econbot.ddns.net" target="_blank" class="btn-5">
-            <button class="btn-5"><i style="color: #ffcccb; animation: iglow 1.5s ease-in-out infinite alternate;" class="fas fa-discord"></i> Econ - Discord Bot</h3></button>
+            <div class="square">
+                <div class="content">
+                    <button class="btn-5"><i style="color: #ffcccb; animation: iglow 1.5s ease-in-out infinite alternate;" class="fas fa-discord"></i> Econ - Discord Bot</h3></button>
+                    <h4 class="description">Econ is a Python Bot made for Discord, using a digital economy to create a competive battle to be the richest!</h4>
+                </div>
+            </div>
         </a>
-        <h4 class="description">Econ is a Python Bot made for Discord, using a digital economy to create a competive battle to be the richest!</h4>
+
         <br>
-        <a href="https://pyengine.netlify.app" target="_blank" class="btn-5">
-            <button class="btn-5"><i style="color: #ffcccb; animation: iglow 1.5s ease-in-out infinite alternate;" class="fas fa-python"></i> PyEngine</h3></button>
+
+        <a href="https://pyarena.ddns.net" target="_blank" class="btn-5">
+            <div class="square">
+                <div class="content">
+                    <button class="btn-5"><i style="color: #ffcccb; animation: iglow 1.5s ease-in-out infinite alternate;" class="fas fa-python"></i> PyArena</h3></button>
+                    <h4 class="description">My Personal Pet-Project Game Engine I'm developing in my free time, progress is slow so don't expect too much yet.</h4>
+                </div>
+            </div>
         </a>
-        <h4 class="description">My Personal Pet-Project I'm developing in my free time, progress is slow so don't expect too much yet.</h4>
-    </div> -->
+    </div>
     
     <br>
     <br>
@@ -374,7 +412,7 @@
     <!-- Footer -->
     <div class="content flex">
         <div class="footer">
-            <p style="color: whitesmoke;">Jayden Galea | 2021 | <a href="mailto:jaydengalea24@gmail.com" style="color: whitesmoke; background-color: transparent; text-decoration: none;">Email Me <i class="fas fa-share"></i></a></p>
+            <p style="color: whitesmoke;"><i class="fab fa-dev"></i> Jayden Galea | 2021 | <a href="mailto:jaydengalea24@gmail.com" style="color: whitesmoke; background-color: transparent; text-decoration: none;">Email Me <i class="fas fa-share"></i></a></p>
         </div>
     </div>
 
