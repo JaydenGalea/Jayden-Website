@@ -180,10 +180,16 @@
             }
             
             /* Project */
+            .projects {
+                padding: 20px;
+            }
+            
             .project {
                 overflow: hidden;
-                width: 20em;
                 height: 20em;
+                width: 50%;
+                padding: 20;
+                float: left;
                 text-decoration: none;
             }
 
@@ -373,14 +379,20 @@
     
     <br>
     
-    <h4 style="text-align: center;">My Projects <i class="fas fa-code"></i></h4>
-    <br>
-    <a href="/econ" class="project">
-        <button class="project">Econ  <i class="fab fa-discord"></i></button>
-    </a>
-    <a href="/pyarena" class="project">
-        <button class="project">PyArena  <i class="fab fa-python"></i></button>
-    </a>
+    <div class="projects">
+        <h4 style="text-align: center;">My Projects <i class="fas fa-code"></i></h4>
+        <br>
+        <div class="project">
+            <a href="/econ" class="project">
+                <button class="project">Econ  <i class="fab fa-discord"></i></button>
+            </a>
+        </div>
+        <div class="project">
+            <a href="/pyarena" class="project">
+                <button class="project">PyArena  <i class="fab fa-python"></i></button>
+            </a>
+        </div>
+    </div>
 <!--     <div class="about">
         <br>
         <div class="grid-container">
