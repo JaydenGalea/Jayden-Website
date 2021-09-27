@@ -19,8 +19,9 @@ body {
     position: fixed;
     color: whitesmoke;
     z-index: 999;
-    top: 10px;
-    left: 10px;
+    text-size: 18px;
+    top: 30px;
+    left: 30px;
     text-decoration: none;
 }
 
