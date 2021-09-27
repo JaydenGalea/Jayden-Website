@@ -185,26 +185,27 @@
                 width: 400px;
                 height: 400px;
                 text-decoration: none;
+                animation: glow 2s ease-in-out infinite alternate;
+                color: darkslateblue;
+                text-shadow: 0 0 black;
             }
             
             .econ {
                 background-image: url("econ.png");
-                opacity: 0.3;
                 background-repeat: no-repeat;
                 background-size: 400px 400px;
             }
             
             .pyarena {
                 background-image: url("pure_technology.gif");
-                opacity: 0.3;
                 background-repeat: no-repeat;
                 background-size: 400px 400px;
             }
 
             .project::after {
               /*background-color: #f00;*/
-              height: 100%;
-              left: -95%;
+              height: 150%;
+              left: -150%;
               top: 0;
               transform: skew(50deg);
               transition-duration: 0.6s;
@@ -213,8 +214,8 @@
             }
 
             .project:hover:after {
-              height: 100%;
-              width: 135%;
+              height: 150%;
+              width: 150%;
             }
             
             .waves {
