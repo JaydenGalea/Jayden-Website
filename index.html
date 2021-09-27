@@ -42,34 +42,6 @@
             
             a {
                 text-decoration: none;
-                background: linear-gradient(to right, midnightblue, midnightblue 50%, whitesmoke 50%);
-                transition: background-position 275ms ease;
-                background-clip: text;
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
-                background-size: 200% 100%;
-                background-position: 100%;
-            }
-            
-            a::before {
-              position: absolute;
-              content: attr(data-content); /* Prints the value of the attribute */
-              top: 0;
-              left: 0;
-              color: midnightblue;
-              text-decoration: underline;
-              overflow: hidden;
-              transition: width 275ms ease;
-            }
-            
-            a::before {
-              /* Same as before */
-              width: 0;
-              white-space: nowrap;
-            }
-            
-            a:hover::before {
-              width: 100%;
             }
             
             h4 {
