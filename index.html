@@ -195,7 +195,8 @@
                 text-weight: bold;
                 font: 26px Arial, sans-serif;
                 white-space: nowrap;
-                display: inline
+                display: inline-block;
+                vertical-align: top;
             }
             
             .econ {
@@ -399,12 +400,14 @@
     
     <h4 style="text-align: center;">My Projects <i class="fas fa-code"></i></h4>
     <br>
-    <a href="/econ">
-        <button class="project econ">Econ <i class="fab fa-discord"></i></button>
-    </a>
-    <a href="/pyarena">
-        <button class="project pyarena">PyArena <i class="fab fa-python"></i></button>
-    </a>
+    <div id='wrapper' style='text-align: center;'>
+        <a href="/econ">
+            <button class="project econ">Econ <i class="fab fa-discord"></i></button>
+        </a>
+        <a href="/pyarena">
+            <button class="project pyarena">PyArena <i class="fab fa-python"></i></button>
+        </a>
+    </div>
 <!--     <div class="about">
         <br>
         <div class="grid-container">
