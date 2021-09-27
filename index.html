@@ -189,8 +189,6 @@
                 width: 400px;
                 height: 400px;
                 padding: 1em;
-                text-decoration: none;
-                animation: glow 2s ease-in-out infinite alternate;
                 color: whitesmoke;
                 text-weight: bold;
                 font: 26px Arial, sans-serif;
@@ -224,8 +222,9 @@
             }
 
             .project:hover:after {
-              height: 350%;
-              width: 250%;
+                height: 350%;
+                width: 250%;
+                animation: glow 2s ease-in-out infinite alternate;
             }
             
             .waves {
@@ -402,10 +401,10 @@
     <br>
     <div id='wrapper' style='text-align: center;'>
         <a href="/econ">
-            <button class="project econ">Econ <i class="fab fa-discord"></i><h4 style="line-break: anywhere;" class="description">Econ is a Python Bot made for Discord, using a digital economy to create a competive battle to be the richest!</h4></button>
+            <button class="project econ">Econ <i class="fab fa-discord"></i></button>
         </a>
         <a href="/pyarena">
-            <button class="project pyarena">PyArena <i class="fab fa-python"></i><h4 style="line-break: anywhere;" class="description">My Personal Pet-Project Game Engine I'm developing in my free time, progress is slow so don't expect too much yet.</h4></button>
+            <button class="project pyarena">PyArena <i class="fab fa-python"></i></button>
         </a>
     </div>
     
