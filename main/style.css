@@ -192,13 +192,13 @@ button:hover {
 }
 
 .econ {
-    background-image: url("DimEcon.png");
+    background-image: url("/DimEcon.png");
     background-repeat: no-repeat;
     background-size: 400px 400px;
 }
 
 .pyarena {
-    background-image: url("pure_technology.gif");
+    background-image: url("/pure_technology.gif");
     background-repeat: no-repeat;
     background-size: 400px 400px;
 }
