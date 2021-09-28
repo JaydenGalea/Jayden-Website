@@ -213,6 +213,12 @@ button:hover {
     background-size: 400px 400px;
 }
 
+.jaydendev {
+    background-image: url("/favicon.ico");
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+}
+
 .project:hover {
     animation: glow 5s ease-in-out infinite alternate;
     text-shadow: 2px 2px 5px darkslategrey;
