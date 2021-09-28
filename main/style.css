@@ -211,13 +211,11 @@ button:hover {
     background-image: url("/pure_technology.gif");
     background-repeat: no-repeat;
     background-size: 400px 400px;
-    opacity: 0.7;
 }
 
 .pyarena:hover:after {
     height: 350%;
     width: 250%;
-    opacity: 1;
     background-image: linear-gradient(315deg, rgb(9,9,71,0.7) 0%, rgb(122,115,199,0.7) 74%);
     text-shadow: 2px 2px 5px darkslategrey;
 }
