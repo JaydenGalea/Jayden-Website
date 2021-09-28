@@ -211,6 +211,11 @@ button:hover {
     background-image: url("/pure_technology.gif");
     background-repeat: no-repeat;
     background-size: 400px 400px;
+    opacity: 0.7;
+}
+
+.pyarena:hover {
+  opacity: 1;
 }
 
 .jaydendev {
