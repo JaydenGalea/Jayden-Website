@@ -104,6 +104,14 @@ p {
   text-align: center;
 }
 
+.about {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 80%;
+    margin: auto;
+    padding: 2em;
+    opacity: 0.5;
+}
+
 /* Buttons */
 .container {
     margin: 0 auto;
