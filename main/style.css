@@ -83,12 +83,6 @@ p {
     100% { transform: translateY(-10px); }
 }
 
-.glow_heading {
-  background-color: grey;
-  padding 1em
-  width: 60%;
-}
-
 .header {
   position:relative;
   text-align:center;
