@@ -83,6 +83,11 @@ p {
     100% { transform: translateY(-10px); }
 }
 
+.glow heading {
+  background-color: white;
+  padding 2em
+}
+
 .header {
   position:relative;
   text-align:center;
