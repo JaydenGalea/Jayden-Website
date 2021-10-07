@@ -84,8 +84,9 @@ p {
 }
 
 .glow_heading {
-  background-color: white;
+  background-color: grey;
   padding 1em
+  width: 60%;
 }
 
 .header {
