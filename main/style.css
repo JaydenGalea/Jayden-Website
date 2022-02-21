@@ -250,6 +250,7 @@ button:hover {
     background-image: url("/main/images/dimduck.png");
     background-repeat: no-repeat;
     background-size: 400px 400px;
+    font: 22px Arial, sans-serif;
 }
 
 .project:hover {
