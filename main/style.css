@@ -203,7 +203,7 @@ button:hover {
     height: 400px;
     padding: 1em;
     color: whitesmoke;
-    font: 26px Arial, sans-serif;
+    font: 24px Arial, sans-serif;
     white-space: nowrap;
     text-shadow: 2px 2px 5px darkslategrey;
     display: inline-block;
@@ -250,7 +250,6 @@ button:hover {
     background-image: url("/main/images/dimduck.png");
     background-repeat: no-repeat;
     background-size: 400px 400px;
-    font: 22px Arial, sans-serif;
 }
 
 .project:hover {
