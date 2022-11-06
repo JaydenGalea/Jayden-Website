@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jayden Galea</title>
+        <meta name="description" content="The Official Website for Jayden Galea.">
+        <link rel="icon" href="data/images/duck.png">
+        <script src="https://kit.fontawesome.com/b3476ba8d6.js" crossorigin="anonymous"></script>
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+        />
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+        <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="blog-slider">
+        <div class="blog-slider__wrp swiper-wrapper">
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="data/images/bg.jpeg" alt="">
+            </div>
+            <div class="blog-slider__content">
+              <span class="blog-slider__code">6th November 2022</span>
+              <div class="blog-slider__title">Website Blog</div>
+              <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi? </div>
+              <a href="#" class="blog-slider__button">READ MORE</a>
+            </div>
+          </div>
+
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="data/images/img1.jpeg" alt="">
+            </div>
+            <div class="blog-slider__content">
+              <span class="blog-slider__code">7th November 2022</span>
+              <div class="blog-slider__title">Website Blog 2</div>
+              <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi? </div>
+              <a href="#" class="blog-slider__button">READ MORE</a>
+            </div>
+          </div>
+
+          <div class="blog-slider__item swiper-slide">
+            <div class="blog-slider__img">
+              <img src="data/images/img3.jpeg" alt="">
+            </div>
+            <div class="blog-slider__content">
+              <span class="blog-slider__code">8th November 2022</span>
+              <div class="blog-slider__title">Website Blog 3</div>
+              <div class="blog-slider__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae voluptate repellendus magni illo ea animi? </div>
+              <a href="#" class="blog-slider__button">READ MORE</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="blog-slider__pagination"></div>
+      </div>
+
+    <!-- Scripts -->
+    <script>
+        var swiper = new Swiper('.blog-slider', {
+        spaceBetween: 6000,
+        effect: 'fade',
+        loop: true,
+        mousewheel: {
+            invert: false,
+        },
+        // autoHeight: true,
+        allowTouchMove: false,
+        pagination: {
+            el: '.blog-slider__pagination',
+            clickable: true
+        }
+        });
+    </script>
+
+    </body>
+</html>
