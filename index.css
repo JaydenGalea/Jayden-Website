@@ -28,7 +28,7 @@ a:active { text-decoration: none; }
   border-radius: 1px;
   height: 300px;
   transition: all 0.3s;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 .blog-slider {
   width: 100%;
