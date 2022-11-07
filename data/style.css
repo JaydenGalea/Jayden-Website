@@ -161,9 +161,9 @@ button {
 
 button::before,
   button::after {
-  background: background-color: #090947;
+  background: #090947;
   background-image: linear-gradient(315deg, #090947 0%, #7a73c7 74%);
-  content: '';
+  /* content: ''; */
   position: absolute;
   z-index: -1;
 }
@@ -359,18 +359,5 @@ button:hover {
   }
   100% { 
     transform: translate3d(85px,0,0);
-  }
-}
-/*Shrinking for mobile*/
-@media (max-width: 768px) {
-  .waves {
-    height:40px;
-    min-height:40px;
-  }
-  .content {
-    height:30vh;
-  }
-  h1 {
-    font-size:24px;
   }
 }
