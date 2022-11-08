@@ -30,6 +30,18 @@ a:active { text-decoration: none; }
   transition: all 0.3s;
   margin-bottom: 100px;
 }
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track { /* Track */
+  background: rgba(0, 0, 0, 0.05);
+}
+::-webkit-scrollbar-thumb { /* Handle */
+  background: rgba(255, 255, 255, 0.1);
+}
+::-webkit-scrollbar-thumb:hover { /* Handle on hover */
+  background: rgba(255, 255, 255, 0.15);
+}
 .blog-slider {
   width: 100%;
   display: block;
