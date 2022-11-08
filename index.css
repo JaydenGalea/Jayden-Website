@@ -371,7 +371,7 @@ a:active { text-decoration: none; }
   color:white;
 }
 .inner-header {
-  height:55vh;
+  height:75vh;
   width:100%;
   margin: 0;
   padding: 0;
@@ -381,6 +381,15 @@ a:active { text-decoration: none; }
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+.waves {
+  position:relative;
+  width: 100%;
+  height:15vh;
+  margin-bottom:-7px; /*Fix for safari gap*/
+  min-height:100px;
+  max-height:150px;
+  z-index: 0;
 }
 .parallax > use {
   animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)     infinite;
